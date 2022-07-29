@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 826px;
+    margin: 0 auto;
+    /* height: 100px; */
+    /* background-color: yellow; */
+}
+
+main > div {
+    position: relative;
+} 
+
+.topIntroDiv {
+    width: 100%;
+    padding-top: 185px;
+    padding-bottom: 90px;
+}
+
+.topIntroDiv > p {
+    font-family: 'GmarketSansMedium';
+    font-size: 73px;
+    line-height: 70px;
+    color: #313131;
+    margin-left: 40px;
+}
+
+.topIntroDiv > p > span {
+    font-family: 'GmarketSansBold';
+}
+
+.hashtags {
+    font-family: 'GmarketSansMedium';
+    font-size: 28px;
+    color: #498DE5;
+}
+
+.topIntroDiv > img {
+    position: absolute;
+    right: 40px;
+    top: 126px;
+}
+
+
+/* Who AM I */
+.whoAmI {
+    background-color: #1E2128;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-top-Right-radius: 50px;
+}
+
+.mainTitle {
+    color: white;
+    font-size: 55px;
+    font-family: 'GmarketSansBold';
+    margin-top: -10px;
+}
+
+#myIntro {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 27px;
+    color: white;
+    font-family: 'GmarketSansLight';
+}
+
+#myIntro > span {
+    font-family: 'GmarketSansBold';
+}
+
+.whoAmI .whoAmIinnerBox {
+    margin: 10px;
+    display: inline-block;
+}
+
+.whoAmI .whoAmIinnerBox > p {
+    display: inline-block;
+    font-family: 'GmarketSansLight';
+    color: white;
+    font-size: 21px;
+    transform: translateY(-10px);
+}
+
+.whoAmI .whoAmIinnerBox > i {
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+}
+
+/* My Skills */
+.skills {
+    padding: 30px;
+    background-color: #3142B4;
+}
+
+.skills > .part {
+    background-color: white;
+    width: calc(95% - 20px);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.skills .innerTitle {
+    color: #353941;
+    font-family: 'GmarketSansBold';
+    font-size: 30px;
+}
+
+.skills .imageDiv {
+    text-align: center;
+    margin-top: 17.5px;
+}
+
+.skills .imageDiv > img {
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
