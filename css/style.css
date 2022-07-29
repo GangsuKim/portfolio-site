@@ -16,7 +16,7 @@ main > div {
 
 .topIntroDiv {
     width: 100%;
-    padding-top: 185px;
+    padding-top: 130px;
     padding-bottom: 90px;
 }
 
@@ -41,7 +41,7 @@ main > div {
 .topIntroDiv > img {
     position: absolute;
     right: 40px;
-    top: 126px;
+    top: 71px;
 }
 
 
@@ -135,4 +135,39 @@ main > div {
     padding: 30px;
     padding-bottom: 60px;
     background-color: #1E8228;
+}
+
+.projects > .project {
+    background-color: white;
+    width: calc(95% - 20px);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.projects .innerTitle {
+    color: #353941;
+    font-family: 'GmarketSansBold';
+    font-size: 36px;
+}
+
+.dateOfWork {
+    font-size: 70%;
+    opacity: 80%;
+}
+
+.teamProj {
+    position: absolute;
+    top: 26px;
+    right: 31px;
+    opacity: 60%;
+    transition: all 0.4s;
+}
+
+.teamProj:hover {
+    opacity: 90%;
+    transition: all 0.4s;
+    cursor: pointer;
 }
