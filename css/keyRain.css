@@ -1,0 +1,15 @@
+.keyRainDiv {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    animation: keyRainDiv 10s linear infinite;
+}
+
+@keyframes keyRainDiv {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
