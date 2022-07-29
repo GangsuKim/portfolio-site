@@ -259,22 +259,76 @@ main > div {
     font-family: 'GmarketSansMedium';
 }
 
-.specfic > img {
+
+.specfic {
+    background-color: rgb(211, 211, 211);
+    border-radius: 25px;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+}
+
+.specfic > img {
+    margin-top: 10px;
+    margin-left: 20px;
     display: inline-block;
 }
 
 .specfic > p {
     display: inline-block;
-    font-size: 21px;
+    font-size: 23px;
     font-family: 'GmarketSansLight';
     font-weight: 600;
-    transform: translateY(-23px);
+    transform: translateY(-13px);
 }
 
-.graph {
+
+.toGitHub {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 3px;
+    background-color: #24292F;
+    border-radius: 20px;
+    font-family: 'GmarketSansMedium';
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.toGitHub > i {
+    font-size: 30px;
+}
+
+.toGitHub > p {
+    display: inline-block;
+    font-size: 20px;
+    transform: translateY(-3px);
+}
+
+.toGitHub:hover {
+    background-color: #24292f2a;
+    transition: all 0.4s;
+}
+
+.toGitHub > p.clickToMove {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    opacity: 0;
+    font-family: 'GmarketSansBold';
+    transition: all 0.4s;
+    font-size: 22px;
+}
+
+
+.toGitHub:hover > p.clickToMove {
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+/* .graph {
     padding: 20px;
     font-family: 'GmarketSansMedium';
     padding-top: 0px;
@@ -306,4 +360,4 @@ main > div {
 .graph > .graphInner > .inner:first-child {
     border-top-left-radius: 23px ;
     border-bottom-left-radius:23px ;
-}
+} */
