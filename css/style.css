@@ -348,6 +348,10 @@ main > div {
     display: inline-block;
 }
 
+.stack-half.full {
+    width: calc(100% - 40px);
+}
+
 .projStacks > .stack-half  > hr {
     color: black;
 }
@@ -397,6 +401,33 @@ main > div {
 .projStacks .stackImageDiv > a:hover .stackMoveTo {
     transition: all 0.4s;
     opacity: 0.8;
+}
+
+/* Awards */
+.awards {
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(49, 172, 202);
+}
+
+.award {
+    background-color: rgb(245, 245, 245);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.award > img {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.award > p {
+    display: inline-block;
+    font-size: 23px;
+    font-family: 'GmarketSansLight';
+    font-weight: 600;
+    transform: translateY(-13px);
 }
 
 /* .graph {
