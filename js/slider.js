@@ -1,9 +1,10 @@
 window.onload = () => {
     const slider1 = ['SIGN/Sign_1.png','SIGN/Sign_2.png'];
     const slider2 = ['BeanPlace/BeanPlace_1.png','BeanPlace/BeanPlace_2.png','BeanPlace/BeanPlace_3.png','BeanPlace/BeanPlace_4.png','BeanPlace/BeanPlace_5.png'];
+    const slider3 = ['DoI/DoI_1.png','DoI/DoI_2.png','DoI/DoI_3.png'];
     const slidercnt = [];
     
-    const sliders = [slider1,slider2];
+    const sliders = [slider1,slider2,slider3];
     const path = './images/';
 
     const imageSlider = document.getElementsByClassName("imageSlider");

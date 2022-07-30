@@ -274,11 +274,60 @@ main > div {
     font-size: 22px;
 }
 
-
 .toGitHub:hover > p.clickToMove {
     opacity: 1;
     transition: all 0.4s;
 }
+
+
+.projDemo {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 3px;
+    background-color: #1E8228;
+    border-radius: 20px;
+    font-family: 'GmarketSansMedium';
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    position: relative;
+    width: calc(100% - 20px);
+    height: 39.250px;
+}
+
+.projDemo > i {
+    font-size: 30px;
+}
+
+.projDemo > p {
+    display: inline-block;
+    font-size: 20px;
+    transform: translateY(-3px);
+}
+
+.projDemo:hover {
+    background-color: #24292f2a;
+    transition: all 0.4s;
+}
+
+.projDemo > p.clickToMove {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    opacity: 0;
+    font-family: 'GmarketSansBold';
+    transition: all 0.4s;
+    font-size: 22px;
+}
+
+.projDemo:hover > p.clickToMove {
+    opacity: 1;
+    transition: all 0.4s;
+}
+
 
 
 /* Project Stacks */
