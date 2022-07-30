@@ -12,7 +12,6 @@ window.onload = () => {
 
     var cnt = 0;
     for (let slider of imageSlider) {
-        console.log(slider)
         slider.number = cnt;
         slidercnt.push(0); // set image status
         slider.querySelector('.btn.leftBtn').addEventListener('click', (e) => {
