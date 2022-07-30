@@ -331,71 +331,23 @@ main > div {
 
 /* Project Stacks */
 .projStacks {
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'GmarketSansMedium';
 }
 
-.projStacks hr {
-    margin-top: 5px;
-}
-
 .projStacks > .stack-half {
-    width: calc(48% - 40px);
+    width: calc(49% - 40px);
     background-color: rgb(228, 228, 228);
-    padding: 10px 20px;
+    padding: 20px;
     border-radius: 20px;
-    display: inline-block;
 }
 
 .projStacks > .stack-half  > hr {
     color: black;
 }
 
-.projStacks .stackImageDiv {
-    margin-top: 13px;
-}
-
-.projStacks .imgDiv {
-    display: inline-block;
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px rgb(156, 156, 156);
-    margin-left: 5px;
-}
-
-.projStacks .imgDiv > img {
-    position: absolute;
-    width: 75%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
 .projStacks > .stack-half  > .title {
-    font-size: 18px;
-}
-
-.projStacks .stackImageDiv > a {
-    transition: all 0.4s;
-    text-decoration: none;
-}
-
-.projStacks .stackImageDiv > a:hover img:first-child {
-    opacity: 0.2;
-    transition: all 0.4s;
-}
-
-.projStacks .stackImageDiv > a .stackMoveTo {
-    transition: all 0.4s;
-    opacity: 0;
-}
-
-.projStacks .stackImageDiv > a:hover .stackMoveTo {
-    transition: all 0.4s;
-    opacity: 0.8;
+    font-size: 20px;
 }
 
 /* .graph {
