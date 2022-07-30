@@ -414,8 +414,11 @@ main > div {
     background-color: rgb(245, 245, 245);
     border-radius: 25px;
     margin-top: 10px;
-    cursor: pointer;
     position: relative;
+}
+
+.award.moveTo {
+    cursor: pointer;
 }
 
 .awards > div:first-of-type {
@@ -438,7 +441,7 @@ main > div {
     transition: all 0.4s;
 }
 
-.award:hover > img, .award:hover > p {
+.award.moveTo:hover > img, .award.moveTo:hover > p {
     opacity: 0.2;
     transition: all 0.4s;
 }
@@ -459,6 +462,71 @@ main > div {
 .award:hover > p.clickToMove {
     opacity: 1;
     transition: all 0.4s;
+}
+
+/* Educations */
+
+.educations {
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: #F2F2F2;
+    position: relative;
+    font-family: 'GmarketSansLight';
+}
+
+.educations > .edu:first-of-type {
+    margin-top: 15px;
+}
+
+.edu {
+    background-color: rgb(94, 94, 94);
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.edu.include {
+    margin-left: 50px;
+}
+
+.edu > p {
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.edu > i {
+    position: absolute;
+    font-size: 50px;
+    transform: translateY(-6px);
+    color: rgb(48, 48, 48);;
+}
+
+.edu-line {
+    position: absolute;
+    background-color: rgb(48, 48, 48);
+    width: 3px;
+    height: 395px;
+    top: 140px;
+    left: 63px;
+}
+
+.edu-line-include {
+    width: 46px;
+    height: 3px;
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    top: 27px;
+    left: -15px;
+}
+
+.edu-des {
+    padding-left: 30px;
+    font-size: 20px;
+    color: #d6d6d6;
 }
 
 /* .graph {
