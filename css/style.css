@@ -413,6 +413,10 @@ main > div {
 .award {
     background-color: rgb(245, 245, 245);
     border-radius: 25px;
+    margin-top: 10px;
+}
+
+.awards > div:first-of-type {
     margin-top: 20px;
 }
 
