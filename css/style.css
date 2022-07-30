@@ -414,6 +414,8 @@ main > div {
     background-color: rgb(245, 245, 245);
     border-radius: 25px;
     margin-top: 10px;
+    cursor: pointer;
+    position: relative;
 }
 
 .awards > div:first-of-type {
@@ -424,6 +426,7 @@ main > div {
     margin-top: 10px;
     margin-left: 20px;
     display: inline-block;
+    transition: all 0.4s;
 }
 
 .award > p {
@@ -432,6 +435,30 @@ main > div {
     font-family: 'GmarketSansLight';
     font-weight: 600;
     transform: translateY(-13px);
+    transition: all 0.4s;
+}
+
+.award:hover > img, .award:hover > p {
+    opacity: 0.2;
+    transition: all 0.4s;
+}
+
+.award > p.clickToMove {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    opacity: 0;
+    font-family: 'GmarketSansBold';
+    transition: all 0.4s;
+    font-size: 22px;
+}
+
+.award:hover > p.clickToMove {
+    opacity: 1;
+    transition: all 0.4s;
 }
 
 /* .graph {

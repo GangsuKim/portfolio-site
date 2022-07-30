@@ -95,11 +95,11 @@
             </div>
         </div>
 
-        <!-- SIGN -->
-        <div class="projects">
+        <div class="projects" id="proj-sign">
             <p class="mainTitle">PROJECTS</p>
             <hr>
 
+            <!-- SIGN -->
             <div class="project">
                 <p class="innerTitle">SIGN<span class="dateOfWork">(2022.02 ~ 2022.06)</span></p>
                 <img src="./images/Group.png" alt="Team Project" width="35" class="teamProj">
@@ -462,29 +462,34 @@
             <p class="mainTitle">AWARDS</p>
             <hr>
 
-            <div class="award">
+            <div class="award" onclick="slideTo('proj-sign')">
                 <img src="./images/icons/gold-medal.png" alt="Gold Medal" width="40px">
                 <p> 2022년 1학기 캡스톤 디자인 경진대회 대상</p>
+                <p class="clickToMove">프로젝트 보러가기</p>
             </div>
 
             <div class="award">
                 <img src="./images/icons/gold-medal.png" alt="Silver Medal" width="40px">
                 <p style="font-size: 22px;"> 한림대학교 2021 SW Week GitHub 이력서 콘테스트 해커톤 금상</p>
+                <p class="clickToMove">클릭하여 이동</p>
             </div>
 
             <div class="award">
                 <img src="./images/icons/silver-medal.png" alt="Silver Medal" width="40px">
                 <p style="font-size: 22px;"> 한림대학교 2021 SW Week UI/UX 설계안 공모전 은상</p>
+                <p class="clickToMove">클릭하여 이동</p>
             </div>
 
             <div class="award">
                 <img src="./images/icons/bronze-medal.png" alt="Bronze Medal" width="40px">
                 <p style="font-size: 22px;"> 2015년 제 32회 한국정보올림피아드 강원도대회 중학생부 동상</p>
+                <p class="clickToMove">클릭하여 이동</p>
             </div>
         </div>
     </main>
 
     <script src="./js/slider.js"></script>
+    <script src="./js/slideTo.js"></script>
 </body>
 
 </html>
