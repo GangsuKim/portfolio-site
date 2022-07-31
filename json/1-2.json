@@ -1,0 +1,57 @@
+{
+    "season_kr":"1학년 2학기",
+    "season_en":"Freshman 2nd semester",
+    "all-score" : 4.25,
+    "major-score" : 4.5,
+    "course-count" : 6,
+    "course" : [
+        {
+            "type_kr" : "기초",
+            "type_en" : "Core",
+            "name_kr" : "대학영어4",
+            "name_en" : "College English4",
+            "credit" : 3,
+            "grade" : "A"
+        },
+        {
+            "type_kr" : "기초",
+            "type_en" : "Core",
+            "name_kr" : "창의코딩웹",
+            "name_en" : "TCreative Coding with Web",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "일반교양",
+            "type_en" : "Elective",
+            "name_kr" : "방송영상콘텐츠제작2-캡스톤디자인",
+            "name_en" : "The Production of Television Broadcasting Contents",
+            "credit" : 3,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "자바프로그래밍II",
+            "name_en" : "Java programming II",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "선형대수",
+            "name_en" : "LINEAR ALGEBRA",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "일반교양",
+            "type_en" : "Elective",
+            "name_kr" : "인터넷과법",
+            "name_en" : "Internet and Law",
+            "credit" : 3,
+            "grade" : "A+"
+        }
+    ]
+}

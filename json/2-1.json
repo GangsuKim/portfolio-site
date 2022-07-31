@@ -1,0 +1,81 @@
+{
+    "season_kr":"2학년 1학기",
+    "season_en":"Sophomore 1st semester",
+    "all-score" : 4.17,
+    "major-score" : 4.5,
+    "course-count" : 9,
+    "course" : [
+        {
+            "type_kr" : "일반교양",
+            "type_en" : "Elective",
+            "name_kr" : "지구촌환경재난",
+            "name_en" : "GLOBAL ENVIRONMENTAL CRISIS",
+            "credit" : 2,
+            "grade" : "A"
+        },
+        {
+            "type_kr" : "일반교양",
+            "type_en" : "Elective",
+            "name_kr" : "생활속의통계학",
+            "name_en" : "STATISTICS IN REAL LIFE",
+            "credit" : 3,
+            "grade" : "B"
+        },
+        {
+            "type_kr" : "교직",
+            "type_en" : "CTP",
+            "name_kr" : "특수교육학개론",
+            "name_en" : "Special Education",
+            "credit" : 2,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "교직",
+            "type_en" : "CTP",
+            "name_kr" : "생활지도와상담",
+            "name_en" : "Guidance & Counseling",
+            "credit" : 2,
+            "grade" : "B"
+        },
+        {
+            "type_kr" : "일반선택",
+            "type_en" : "Elective",
+            "name_kr" : "창업실습",
+            "name_en" : "Start-up",
+            "credit" : 3,
+            "grade" : "P"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "논리설계및실험",
+            "name_en" : "DIGITAL LOGIC DESIGN AND EXPERIMENTS",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "자료구조",
+            "name_en" : "Data Structures",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "C프로그래밍",
+            "name_en" : "C programming",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "데이터사이언스기초",
+            "name_en" : "Basics of Data Science",
+            "credit" : 3,
+            "grade" : "A+"
+        }
+    ]
+}

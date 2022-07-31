@@ -1,0 +1,57 @@
+{
+    "season_kr":"2학년 2학기",
+    "season_en":"Sophomore 2nd semester",
+    "all-score" : 4.12,
+    "major-score" : 4.2,
+    "course-count" : 6,
+    "course" : [
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "데이터베이스기초",
+            "name_en" : "Database Basic",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "소프트웨어특강II",
+            "name_en" : "Special Lectures about Software II",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "알고리즘",
+            "name_en" : "Algorithm",
+            "credit" : 3,
+            "grade" : "A"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "오픈소스SW의이해",
+            "name_en" : "Introduction to Open Source Software",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "파이썬과학프로그래밍기초",
+            "name_en" : "Introduction to scientific programming in python",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "교직",
+            "type_en" : "CTP",
+            "name_kr" : "학교폭력의예방및대책",
+            "name_en" : "Prevention and Countermeasures against Violience in Schools",
+            "credit" : 2,
+            "grade" : "B+"
+        }
+    ]
+}
