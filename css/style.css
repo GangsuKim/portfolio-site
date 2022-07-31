@@ -529,6 +529,109 @@ main > div {
     color: #d6d6d6;
 }
 
+/* GPA */
+.gpa {
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: #32327A;
+    position: relative;
+    font-family: 'GmarketSansLight';
+}
+
+.summaryBox {
+    font-family: 'GmarketSansMedium';
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 0;
+}
+
+.summaryBox > .summary {
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+    width: 40%;
+    padding-top: 10px;
+    border-radius: 15px;
+    font-family: 'GmarketSansBold';
+}
+
+.summaryBox > .summary:nth-child(2) {
+    margin-left: 5%;
+}
+
+.summary > p {
+    display: inline-block;
+    color: #2c2c2c;
+}
+
+p.sumTitle {
+    font-size: 30px;
+}
+
+p.sumScore {
+    margin-left: 10px;
+    font-size: 43px;
+    color: #32327A;
+}
+
+p.sumMax {
+    margin-left: -7px;
+    font-size: 24px;
+    opacity: 0.73;
+}
+
+.selectBox {
+    margin-top: 20px;
+    height: 52.2px;
+    background-color: #32327A;
+}
+
+.tabs {
+    font-family: 'GmarketSansBold';
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.tabs > li {
+    float: left;
+    padding: 10px;
+    width:  calc((100% / 8) - 20px - 1%);
+    text-align: center;
+    margin: 0px calc(1% / 2);
+    padding-bottom: 3px;
+    background-color: #B6E9D9;
+    color: #434343;
+    border-radius   : 15px 15px 0px 0px;
+    cursor: pointer;
+}
+
+.tabs > li[class=selected], .tabs > li[class=selected]:hover {
+    background-color: #0FA555;
+    color: white;
+}
+
+.tabs > li:hover {
+    background-color: #3bd684;
+    color: white;
+}
+
+.tabs > li[class=disabled] {
+    background-color: #C4C4C4;
+    color: #43434394;
+    cursor: default;
+}
+
+.board {
+    width: 99%;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+
+    border-radius: 0px 0px 15px 15px;
+}
+
 /* .graph {
     padding: 20px;
     font-family: 'GmarketSansMedium';
