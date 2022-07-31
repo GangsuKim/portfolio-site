@@ -624,12 +624,66 @@ p.sumMax {
 }
 
 .board {
-    width: 99%;
-    height: 100px;
+    width: calc(99% - 40px);
     background-color: white;
     margin: 0 auto;
 
     border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+}
+
+.boardTitle {
+    font-size: 28px;
+    font-family: 'GmarketSansBold';
+    color: #434343;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.gpaCount {
+    font-size: 28px;
+    font-family: 'GmarketSansBold';
+    display: inline-block;
+    background-color: #32327A;
+    color: white;
+    padding: 0px 20px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+.board > table {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+th {
+    font-family: 'GmarketSansMedium';
+}
+
+td {
+    font-weight: 600;
+}
+
+.board > table th, .board > table td {
+    padding: 7px 7px 0px 7px;
+}
+
+.board > table td:nth-child(2) {
+    text-align: left;
+}
+
+.board thead {
+    background-color: #32327A;
+    color: white;
+}
+
+.board tbody > tr:nth-child(even) {
+    background-color: #c2c2e5;
+    color: rgb(41, 41, 41);
 }
 
 /* .graph {
