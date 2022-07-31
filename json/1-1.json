@@ -1,0 +1,64 @@
+{
+    "season_kr":"1학년 1학기",
+    "season_en":"Freshman 1st semester",
+    "all-score" : 3.64,
+    "major-score" : 3.5,
+    "course-count" : 6,
+    "course" : [
+        {
+            "type_kr" : "기초",
+            "type_en" : "Core",
+            "name_kr" : "컴퓨팅사고와문제해결",
+            "name_en" : "Computing thinking and problem solving",
+            "credit" : 2,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "일반교양",
+            "type_en" : "Elective",
+            "name_kr" : "인권과법",
+            "name_en" : "Human rights and law",
+            "credit" : 3,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "한림소양",
+            "type_en" : "Core",
+            "name_kr" : "오디세이세미나1",
+            "name_en" : "Odyssey seminar 1",
+            "credit" : 1,
+            "grade" : "P"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "이산구조론",
+            "name_en" : "Discrete mathematics",
+            "credit" : 3,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "자바프로그래밍I",
+            "name_en" : "Java programming I",
+            "credit" : 3,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "일반교양",
+            "type_en" : "Elective",
+            "name_kr" : "소프트웨어세상속으로",
+            "name_en" : "Into the world of software",
+            "credit" : 1,
+            "grade" : "P"
+        },{
+            "type_kr" : "기초",
+            "type_en" : "Core",
+            "name_kr" : "사고와표현",
+            "name_en" : "Thinking and expression",
+            "credit" : 3,
+            "grade" : "B+"
+        }
+    ]
+}
