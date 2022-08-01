@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    position: relative;
+}
+
 main {
     width: 826px;
     margin: 0 auto;
@@ -693,7 +697,6 @@ td {
     background-color: #c2c2e5;
     color: rgb(41, 41, 41);
 }
-
 /* .graph {
     padding: 20px;
     font-family: 'GmarketSansMedium';

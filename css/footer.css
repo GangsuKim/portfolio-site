@@ -1,0 +1,35 @@
+footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    /* background-color: yellow; */
+    padding: 20px;
+}
+
+footer > .top {
+    position: absolute;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    right: 80px;
+    bottom: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+footer > .top:hover {
+    background-color: #1E2128;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.top > i {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-55%);
+}
