@@ -607,7 +607,7 @@ p.sumMax {
     cursor: pointer;
 }
 
-.tabs > li[class=selected], .tabs > li[class=selected]:hover {
+.tabs > li.selected, .tabs > li.selected:hover {
     background-color: #0FA555;
     color: white;
 }
@@ -617,7 +617,7 @@ p.sumMax {
     color: white;
 }
 
-.tabs > li[class=disabled] {
+.tabs > li.disabled.gpa-tab {
     background-color: #C4C4C4;
     color: #43434394;
     cursor: default;
@@ -627,7 +627,7 @@ p.sumMax {
     width: calc(99% - 40px);
     background-color: white;
     margin: 0 auto;
-
+    height: 455px;
     border-radius: 0px 0px 15px 15px;
     padding: 20px;
 }
