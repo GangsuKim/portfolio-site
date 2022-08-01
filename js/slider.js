@@ -1,6 +1,6 @@
 window.onload = () => {
     const slider1 = ['SIGN/Sign_1.png','SIGN/Sign_2.png'];
-    const slider2 = ['BeanPlace/BeanPlace_1.png','BeanPlace/BeanPlace_2.png','BeanPlace/BeanPlace_3.png','BeanPlace/BeanPlace_4.png','BeanPlace/BeanPlace_5.png'];
+    const slider2 = ['BeanPlace/BeanPlace_1.jpg','BeanPlace/BeanPlace_2.jpg','BeanPlace/BeanPlace_3.jpg','BeanPlace/BeanPlace_4.jpg','BeanPlace/BeanPlace_5.jpg'];
     const slider3 = ['DoI/DoI_1.png','DoI/DoI_2.png','DoI/DoI_3.png'];
     const slider4 = ['MyCourse/MyCourse_1.png','MyCourse/MyCourse_2.png','MyCourse/MyCourse_3.png','MyCourse/MyCourse_4.png'];
     const slidercnt = [];
