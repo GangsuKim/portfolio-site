@@ -582,9 +582,10 @@ p.sumMax {
     opacity: 0.73;
 }
 
+/* GPA TABs */
 .selectBox {
     margin-top: 20px;
-    height: 52.2px;
+    /* height: 52.2px; */
     background-color: #32327A;
 }
 
@@ -596,15 +597,16 @@ p.sumMax {
 
 .tabs > li {
     float: left;
-    padding: 10px;
-    width:  calc((100% / 8) - 20px - 1%);
+    /* padding: 10px; */
+    width:  calc((100% / 8) - 1%);
     text-align: center;
     margin: 0px calc(1% / 2);
-    padding-bottom: 3px;
+    /* padding-bottom: 3px; */
     background-color: #B6E9D9;
     color: #434343;
     border-radius   : 15px 15px 0px 0px;
     cursor: pointer;
+    height: 50px;
 }
 
 .tabs > li.selected, .tabs > li.selected:hover {
@@ -617,10 +619,15 @@ p.sumMax {
     color: white;
 }
 
-.tabs > li.disabled.gpa-tab {
+.tabs > li.disabled {
     background-color: #C4C4C4;
     color: #43434394;
     cursor: default;
+}
+
+.tabs > li > span {
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .board {
@@ -630,6 +637,7 @@ p.sumMax {
     height: 455px;
     border-radius: 0px 0px 15px 15px;
     padding: 20px;
+    margin-top: 70px;
 }
 
 .boardTitle {

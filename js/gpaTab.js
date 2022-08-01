@@ -1,13 +1,17 @@
 $(document).ready(function() {
     let active = '1-1'; // 현재 활성화 되어 있는 Board의 Season
-    let lang = 'kr';
+    let lang = 'kr'; // 언어 사전 설정
 
     const gpa_tab = document.getElementsByClassName('gpa-tab'); // Tab elements
-    const board = document.getElementsByClassName('board'); // Board Element
+    // const board = document.getElementsByClassName('board'); // Board Element
 
     for(var i = 0; i < gpa_tab.length; i++) { // Tab의 개수만큼 실행 (8회)
         gpa_tab[i].addEventListener('click', (e) => { // 클릭시 Event 발생
-            changeBoardTo(e.target.innerHTML); // Board를 변경하는 함수 실행 (param : season)
+            var season = e.target.innerHTML;
+            if(e.target.localName == 'li') {
+                season = e.target.id;
+            }
+            changeBoardTo(season); // Board를 변경하는 함수 실행 (param : season)
         });
     }
 
@@ -23,7 +27,9 @@ $(document).ready(function() {
             }
             $('.board > table > tbody').html(html);
 
-            $('#' + active).getElementsByClassName()
+            $('#' + active).removeClass('selected');
+            $('#' + season).addClass('selected');
+            active = season
         })
     }
 })
