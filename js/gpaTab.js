@@ -3,7 +3,6 @@ $(document).ready(function() {
     let lang = 'kr'; // 언어 사전 설정
 
     const gpa_tab = document.getElementsByClassName('gpa-tab'); // Tab elements
-    // const board = document.getElementsByClassName('board'); // Board Element
 
     for(var i = 0; i < gpa_tab.length; i++) { // Tab의 개수만큼 실행 (8회)
         gpa_tab[i].addEventListener('click', (e) => { // 클릭시 Event 발생
@@ -16,14 +15,20 @@ $(document).ready(function() {
     }
 
     function changeBoardTo(season) { // Board를 변경하는 함수
-        $.getJSON('../json/' + season + '.json', function(data) {
-            $('.boardTitle').text(data['season_' + lang]);
-            $('.gpaCount').text(data['course-count']);
+        $.getJSON('../json/' + season + '.json', function(data) { // Season => (ex. 1-1, 1-2) 에 해당하는 Json 파일 로드
+            $('.boardTitle').text(data['season_' + lang]); // 학기 표시 (ex. 1학년 1학기)
+            $('.gpaCount').text(data['course-count']); // 수강 학점 표시 (ex. 16)
 
-            let html = '';
+            let html; // Table HTML stack
             for(var i = 0; i < data['course'].length; i++) {
                 const course = data.course[i];
-                html += '<tr><td>' + course["type_kr"] + '</td><td>' + course["name_kr"] + '</td><td>' + course["credit"] + '</td><td>' + course["grade"] + '</td></tr>';
+                let styleSet;
+                if(course["name_" + lang].length > 20) {
+                    styleSet = 'style="font-size: 80%;"';
+                } else if (course["name_" + lang].length > 30) {
+                    styleSet = 'style="font-size: 60%;"';
+                }
+                html += '<tr><td>' + course["type_" + lang] + '</td><td ' + styleSet + '>' + course["name_" + lang] + '</td><td>' + course["credit"] + '</td><td>' + course["grade"] + '</td></tr>';
             }
             $('.board > table > tbody').html(html);
 

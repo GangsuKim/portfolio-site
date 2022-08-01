@@ -10,8 +10,6 @@ body {
 main {
     width: 826px;
     margin: 0 auto;
-    /* height: 100px; */
-    /* background-color: yellow; */
 }
 
 main > div {
@@ -74,6 +72,58 @@ main > div {
 
 #myIntro > span {
     font-family: 'GmarketSansBold';
+}
+
+.myGitHub {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 3px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'GmarketSansMedium';
+    color: #1E2128;
+    cursor: pointer;
+    transition: all 0.4s;
+    position: relative;
+    width: calc(100% - 20px);
+}
+
+.myGitHub.tistory {
+    background-color: #EA5220;
+    color: white;
+}
+
+.myGitHub > i {
+    font-size: 30px;
+}
+
+.myGitHub > p {
+    display: inline-block;
+    font-size: 20px;
+    transform: translateY(-3px);
+}
+
+.myGitHub:hover {
+    background-color: rgba(255, 255, 255, 0.055);
+    transition: all 0.4s;
+}
+
+.myGitHub > p.clickToMove {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    opacity: 0;
+    font-family: 'GmarketSansBold';
+    transition: all 0.4s;
+    font-size: 22px;
+}
+
+.myGitHub:hover > p.clickToMove {
+    opacity: 1;
+    transition: all 0.4s;
 }
 
 .whoAmI .whoAmIinnerBox {
@@ -638,7 +688,7 @@ p.sumMax {
     width: calc(99% - 40px);
     background-color: white;
     margin: 0 auto;
-    height: 455px;
+    min-height: 455px;
     border-radius: 0px 0px 15px 15px;
     padding: 20px;
     margin-top: 70px;
@@ -697,6 +747,28 @@ td {
     background-color: #c2c2e5;
     color: rgb(41, 41, 41);
 }
+
+.last {
+    background-color: #1E2128;
+    padding: 30px;
+}
+
+.last > .mainTitle {
+    color: white;
+    font-size: 30px;
+    font-family: 'GmarketSansLight';
+    margin-top: 10px;
+    text-align: right;
+}
+
+.last > .copy {
+    font-family: 'GmarketSansLight';
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /* .graph {
     padding: 20px;
     font-family: 'GmarketSansMedium';

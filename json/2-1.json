@@ -9,7 +9,7 @@
             "type_kr" : "일반교양",
             "type_en" : "Elective",
             "name_kr" : "지구촌환경재난",
-            "name_en" : "GLOBAL ENVIRONMENTAL CRISIS",
+            "name_en" : "Global enviromental crisis",
             "credit" : 2,
             "grade" : "A"
         },
@@ -17,7 +17,7 @@
             "type_kr" : "일반교양",
             "type_en" : "Elective",
             "name_kr" : "생활속의통계학",
-            "name_en" : "STATISTICS IN REAL LIFE",
+            "name_en" : "Statistics in rasl life",
             "credit" : 3,
             "grade" : "B"
         },
@@ -49,7 +49,7 @@
             "type_kr" : "공통전선",
             "type_en" : "Major",
             "name_kr" : "논리설계및실험",
-            "name_en" : "DIGITAL LOGIC DESIGN AND EXPERIMENTS",
+            "name_en" : "Digital logic design & Experiments",
             "credit" : 3,
             "grade" : "A+"
         },
