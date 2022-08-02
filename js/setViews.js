@@ -1,13 +1,6 @@
 $(document).ready(function() {
-    const md = new MobileDetect(navigator.userAgent);
-    if(md.tablet() == null) {
-        var isMobile = /iPhone|iPod|Android/i.test(navigator.userAgent);
-        if(isMobile) {
-
-        } else {
-            
-        }
-    } else {
-        console.log('Tablet');
-    }
+    var isMobile = /iPhone|iPod|Android/i.test(navigator.userAgent);
+    if(isMobile) {
+        document.querySelector('meta[name=viewport]').content = 'width=device-width, initial-scale=0.5';
+    } 
 });
