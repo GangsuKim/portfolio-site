@@ -5,7 +5,10 @@
 김강수의 개인 포트폴리오 사이트 '**안녕하세요. 김강수 입니다.**'는 저 자신만의 특별한 포트폴리오 및 이력서의 형태로 구축하고 싶어서 구현한 웹 사이트 입니다. [GANGSU.KIM 으로 이동](http://gangsu.kim/)을 클릭하여 웹 페이지를 방문해 보세요.
 
 ## 프로젝트 Stack
-<img height="40" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img height="40" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> <img height="40" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> <img height="40" src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>
+<img height="40" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+<img height="40" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+<img height="40" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
+<img height="40" src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>
 
 ## 프로젝트 목표
 :white_check_mark: Image Slider 구현  
