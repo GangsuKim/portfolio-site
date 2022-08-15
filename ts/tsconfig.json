@@ -1,11 +1,7 @@
 {   
   "compilerOptions" : {     
-    "target": "es5",     
+    "target": "es6",     
     "module": "commonjs",
-    "strictNullChecks": true,
-    "esModuleInterop": true
-  },
-  "typeRoots": [
-    "./node_modules/@types"
- ]
+    "strictNullChecks": true
+  }
 }
