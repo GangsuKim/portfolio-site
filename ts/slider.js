@@ -1,9 +1,10 @@
-const slider1 = ['SIGN/Sign_1.png', 'SIGN/Sign_2.png'];
-const slider2 = ['BeanPlace/BeanPlace_1.jpg', 'BeanPlace/BeanPlace_2.jpg', 'BeanPlace/BeanPlace_3.jpg', 'BeanPlace/BeanPlace_4.jpg', 'BeanPlace/BeanPlace_5.jpg'];
-const slider3 = ['DoI/DoI_1.png', 'DoI/DoI_2.png', 'DoI/DoI_3.png'];
-const slider4 = ['MyCourse/MyCourse_1.png', 'MyCourse/MyCourse_2.png', 'MyCourse/MyCourse_3.png', 'MyCourse/MyCourse_4.png'];
+const slider5 = ['portfolio/port_1.png', 'portfolio/port_2.png'];
+const slider4 = ['SIGN/Sign_1.png', 'SIGN/Sign_2.png'];
+const slider3 = ['BeanPlace/BeanPlace_1.jpg', 'BeanPlace/BeanPlace_2.jpg', 'BeanPlace/BeanPlace_3.jpg', 'BeanPlace/BeanPlace_4.jpg', 'BeanPlace/BeanPlace_5.jpg'];
+const slider2 = ['DoI/DoI_1.png', 'DoI/DoI_2.png', 'DoI/DoI_3.png'];
+const slider1 = ['MyCourse/MyCourse_1.png', 'MyCourse/MyCourse_2.png', 'MyCourse/MyCourse_3.png', 'MyCourse/MyCourse_4.png'];
 const slidercnt = [];
-const sliders = [slider1, slider2, slider3, slider4];
+const sliders = [slider5, slider4, slider3, slider2, slider1];
 const path = './images/';
 const imageSlider = document.querySelectorAll(".imageSlider");
 var cnt = 0;

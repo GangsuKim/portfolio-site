@@ -3,14 +3,14 @@ interface SliderHTMLElement extends HTMLDivElement {
     sliderCnt: number
 }
 
-
-const slider1: string[] = ['SIGN/Sign_1.png', 'SIGN/Sign_2.png'];
-const slider2: string[] = ['BeanPlace/BeanPlace_1.jpg', 'BeanPlace/BeanPlace_2.jpg', 'BeanPlace/BeanPlace_3.jpg', 'BeanPlace/BeanPlace_4.jpg', 'BeanPlace/BeanPlace_5.jpg'];
-const slider3: string[] = ['DoI/DoI_1.png', 'DoI/DoI_2.png', 'DoI/DoI_3.png'];
-const slider4: string[] = ['MyCourse/MyCourse_1.png', 'MyCourse/MyCourse_2.png', 'MyCourse/MyCourse_3.png', 'MyCourse/MyCourse_4.png'];
+const slider5: string[] = ['portfolio/port_1.png','portfolio/port_2.png']
+const slider4: string[] = ['SIGN/Sign_1.png', 'SIGN/Sign_2.png'];
+const slider3: string[] = ['BeanPlace/BeanPlace_1.jpg', 'BeanPlace/BeanPlace_2.jpg', 'BeanPlace/BeanPlace_3.jpg', 'BeanPlace/BeanPlace_4.jpg', 'BeanPlace/BeanPlace_5.jpg'];
+const slider2: string[] = ['DoI/DoI_1.png', 'DoI/DoI_2.png', 'DoI/DoI_3.png'];
+const slider1: string[] = ['MyCourse/MyCourse_1.png', 'MyCourse/MyCourse_2.png', 'MyCourse/MyCourse_3.png', 'MyCourse/MyCourse_4.png'];
 const slidercnt: number[] = [];
 
-const sliders: string[][] = [slider1, slider2, slider3, slider4];
+const sliders: string[][] = [slider5, slider4, slider3, slider2, slider1];
 const path: string = './images/';
 
 const imageSlider: NodeListOf<SliderHTMLElement> = document.querySelectorAll(".imageSlider");
