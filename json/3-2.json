@@ -1,8 +1,8 @@
 {
     "season_kr":"3학년 2학기",
     "season_en":"Junior 2nd semester",
-    "all-score" : 0.0,
-    "major-score" : 0.0,
+    "all-score" : 3.75,
+    "major-score" : 3.71,
     "course-count" : 17,
     "course" : [
         {
@@ -11,7 +11,7 @@
             "name_kr" : "머신러닝",
             "name_en" : "Machine Learning",
             "credit" : 3,
-            "grade" : "-"
+            "grade" : "B+"
         },
         {
             "type_kr" : "공통전선",
@@ -19,7 +19,7 @@
             "name_kr" : "소프트웨어세미나IV",
             "name_en" : "Software Seminar IV",
             "credit" : 1,
-            "grade" : "-"
+            "grade" : "P"
         },
         {
             "type_kr" : "공통전선",
@@ -27,7 +27,7 @@
             "name_kr" : "영상처리와딥러닝",
             "name_en" : "Image Processing And Deep Learning",
             "credit" : 3,
-            "grade" : "-"
+            "grade" : "A"
         },
         {
             "type_kr" : "공통전선",
@@ -35,7 +35,7 @@
             "name_kr" : "웹프레임워크활용",
             "name_en" : "Web Framework",
             "credit" : 3,
-            "grade" : "-"
+            "grade" : "B+"
         },
         {
             "type_kr" : "공통전선",
@@ -43,7 +43,7 @@
             "name_kr" : "정보,컴퓨터교육론",
             "name_en" : "THEORY OF EDUCATION IN COMPUTER SCIENCE",
             "credit" : 3,
-            "grade" : "-"
+            "grade" : "B+"
         },
         {
             "type_kr" : "공통전선",
@@ -51,7 +51,7 @@
             "name_kr" : "텍스트정보처리",
             "name_en" : "THEORY OF EDUCATION IN COMPUTER SCIENCE",
             "credit" : 3,
-            "grade" : "-"
+            "grade" : "A"
         },
         {
             "type_kr" : "교직",
@@ -59,7 +59,7 @@
             "name_kr" : "교육방법및교육공학",
             "name_en" : "TEACHING AND EDUCATIONAL TECHNOLOGY",
             "credit" : 2,
-            "grade" : "-"
+            "grade" : "A"
         }
     ]
 }
