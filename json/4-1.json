@@ -6,7 +6,7 @@
     "course-count" : 21,
     "course" : [
         {
-            "type_kr" : "전선",
+            "type_kr" : "대학원",
             "type_en" : "Major",
             "name_kr" : "고급전산학특강I",
             "name_en" : "ADVANCED TOPICS IN COMPUTER SCIENCE I",
