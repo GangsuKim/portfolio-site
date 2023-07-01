@@ -518,6 +518,19 @@ main > div {
     transition: all 0.4s;
 }
 
+/* ACTIVITIES */
+.activities {
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: #1d4b81;
+    position: relative;
+    font-family: 'GmarketSansLight';
+}
+
+/* .award.logo {
+    margin-right: 20px;
+} */
+
 /* Educations */
 
 .educations {
