@@ -1,0 +1,81 @@
+{
+    "season_kr":"4학년 1학기",
+    "season_en":"Senior 1st semester",
+    "all-score" : 3.87,
+    "major-score" : 3.96,
+    "course-count" : 21,
+    "course" : [
+        {
+            "type_kr" : "대학원",
+            "type_en" : "Major",
+            "name_kr" : "고급전산학특강I",
+            "name_en" : "ADVANCED TOPICS IN COMPUTER SCIENCE I",
+            "credit" : 3,
+            "grade" : "A"
+        },
+        {
+            "type_kr" : "공통전필",
+            "type_en" : "Major",
+            "name_kr" : "오디세이세미나3",
+            "name_en" : "Odyssey Seminar3",
+            "credit" : 1,
+            "grade" : "P"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "멀티미디어개론",
+            "name_en" : "Introduction To Multi Media",
+            "credit" : 3,
+            "grade" : "A"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "영상처리프로그래밍",
+            "name_en" : "IMAGE PROCESSING",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "정보,컴퓨터논술교육",
+            "name_en" : "Critical Writing Education for Information and Computer",
+            "credit" : 3,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "정보,컴퓨터지도법",
+            "name_en" : "CURRICULUM STUDY INFORMATION AND COMPUTER",
+            "credit" : 3,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "프로그래밍스튜디오",
+            "name_en" : "Programming Studio",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "선택필수",
+            "type_en" : "Sports",
+            "name_kr" : "스포츠-배드민턴",
+            "name_en" : "SPORTS-BADMINTON",
+            "credit" : 1,
+            "grade" : "P"
+        },
+        {
+            "type_kr" : "교직",
+            "type_en" : "CTP",
+            "name_kr" : "교직실무",
+            "name_en" : "Education in Practice",
+            "credit" : 2,
+            "grade" : "B"
+        }
+    ]
+}

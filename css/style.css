@@ -782,6 +782,12 @@ td {
     margin-bottom: 20px;
 }
 
+/* @media (max-width: 915px) {
+    main {
+        width: 100%;
+    }
+} */
+
 /* .graph {
     padding: 20px;
     font-family: 'GmarketSansMedium';
