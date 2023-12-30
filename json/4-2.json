@@ -1,0 +1,49 @@
+{
+    "season_kr":"4학년 2학기",
+    "season_en":"Senior 2nd semester",
+    "all-score" : 3.80,
+    "major-score" : 4,
+    "course-count" : 12,
+    "course" : [
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "모바일프로그래밍",
+            "name_en" : "Mobile Programming",
+            "credit" : 3,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "공통전선",
+            "type_en" : "Major",
+            "name_kr" : "인공지능수학",
+            "name_en" : "Mathematics for machine learning",
+            "credit" : 3,
+            "grade" : "A+"
+        },
+        {
+            "type_kr" : "교직",
+            "type_en" : "CTP",
+            "name_kr" : "교육과정",
+            "name_en" : "Curriculum",
+            "credit" : 2,
+            "grade" : "B+"
+        },
+        {
+            "type_kr" : "교직",
+            "type_en" : "CTP",
+            "name_kr" : "교육봉사활동",
+            "name_en" : "Educational Volunteer Work",
+            "credit" : 2,
+            "grade" : "P"
+        },
+        {
+            "type_kr" : "교직",
+            "type_en" : "CTP",
+            "name_kr" : "교육사회",
+            "name_en" : "Educational Society",
+            "credit" : 2,
+            "grade" : "B+"
+        }
+    ]
+}
