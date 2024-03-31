@@ -71,7 +71,22 @@ main > div {
 }
 
 #myIntro > span {
-    font-family: 'GmarketSansBold';
+    font-family: 'GmarketSansMedium';
+}
+
+#myIntro > a:link {
+    text-decoration: none;
+    color: rgb(109, 185, 255);
+}
+
+#myIntro > a:visited {
+    text-decoration: none;
+    color: rgb(109, 185, 255);
+}
+
+#myIntro > a:hover {
+    text-decoration: none;
+    color: rgb(255, 109, 109);
 }
 
 .myGitHub {
