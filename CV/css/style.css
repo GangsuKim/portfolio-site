@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    /* width: 50%; */
+    margin: 0 auto;
+    /* margin-bottom: 1%; */
+    /* background-color: red; */
+}
+
+/* TOP */
+div.top {
+    text-align: center;
+    width: 100%;
+    /* height: 300px; */
+}
+
+p.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p.info.first {
+    line-height: 30px;
+}
+
+p.info {
+    display: inline;
+    font-size: 20px;
+}
+
+p.info#website:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: chocolate;
+}
+
+span#website {
+    font-size: 20px;
+    cursor: pointer;
+    /* color: chocolate; */
+}
+
+span#website:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: chocolate;
+}
+
+i#link-icon {
+    font-size: 80%;
+    color: rgb(167, 167, 167);
+    margin-left: 3px;
+}
+
+span#website:hover i#link-icon {
+    font-size: 80%;
+    color: chocolate;
+}
+
+p.info#website:hover i#link-icon {
+    font-size: 80%;
+    color: chocolate;
+}
+
+span#github-button {
+    color: gray;
+}
+
+span#github-button:hover {
+    cursor: pointer;
+    color: chocolate;
+}
+
+span#paper-button:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+/* Element (Common) */
+div.element {
+    margin-top: 30px;
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: red; */
+}
+
+div.element * {
+    font-size: 20px;
+}
+
+div.element>.title {
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+p.section-name {
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    /* background-color: #fff; */
+}
+
+div.element>.block {
+    margin-top: 15px;
+    width: calc(100% - 4%);
+    /* height: 30px; */
+    /* background-color:black; */
+    font-size: 0 !important;
+    display: flex;
+    padding: 0% 2%;
+}
+
+div.element>.block.slim {
+    margin-top: 5px;
+}
+
+div.element>.block>.edu-side {
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+}
+
+div.element>.block>.edu-info {
+    display: inline-block;
+    width: 60%;
+    background-color: white;
+}
+
+
+div.element>.block>.research-interest {
+    display: inline-block;
+    background-color: white;
+}
+
+div.element>.block>.universal-side {
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+}
+
+div.element>.block>.universal-main {
+    display: inline-block;
+    width: 80%;
+    background-color: white;
+}
+
+div.element>.block>.publications-item {
+    display: inline-block;
+    width: 100%;
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+
+#wrapper{
+    height: 70px;
+    /* background-color: yellow; */
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+.pdf-button {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 60px;
+    display: inline-block;
+    /* width: 130px; */
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.747);
+    color: black;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.267);
+    opacity: 0.7;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.pdf-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+/* Flexible */
+@media only screen and (max-width: 767px) {
+    main {
+        width: 95%;
+    }
+
+    div.element * {
+        font-size: 3vw;
+    }
+
+    span#website {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    main {
+        width: 70%;
+    }
+
+    div.element * {
+        font-size: 1.7vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    main {
+        width: 1024px;
+    }
+
+    div.element * {
+        font-size: 20px;
+    }
+}
+
+
